@@ -75,7 +75,7 @@ function retrieveSentiment (line) {
 }
 
 function retrieveSentimentCF (line) {
-  var apiEndpoint = 'https://us-central1-gcf-live-training-205602.cloudfunctions.net/analyzeSentiment';
+  var apiEndpoint = 'YOUR_CLOUDFUNCTIONS_HTTPS_ENDPOINT';
 
   var reviewData = {
     review_text: line
